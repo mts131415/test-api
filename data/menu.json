@@ -1,0 +1,153 @@
+[
+		{
+			subheader: 'nav.data.default',
+			items: [
+				{
+					title: 'nav.data.overview',
+					href: '/overview',
+					icon: HomeIcon,
+					label: () => <Label color={colors.blue['500']}>Live</Label>
+				},
+				{
+					title: 'nav.event',
+					href: '/events',
+					icon: EventNoteIcon
+				},
+				{
+					title: 'nav.news',
+					href: '/news',
+					icon: AnnouncementOutlinedIcon
+				},
+				{
+					title: 'nav.website.default',
+					href: '/website',
+					icon: WebIcon,
+					items: [
+						{
+							title: 'nav.website.general',
+							href: '/website'
+						},
+						{
+							title: 'nav.website.analytics',
+							href: '/website/analytics'
+						}
+					]
+				},
+			]
+		},
+		{
+			subheader: 'nav.shopping.default',
+			items: [
+				{
+					title: 'nav.shopping.product.default',
+					href: '/shopping',
+					icon: LocalMallOutlinedIcon,
+					items: [
+						{
+							title: 'nav.shopping.product.categories',
+							href: '/product/categories'
+						},
+						{
+							title: 'nav.shopping.product.products',
+							href: '/products'
+						}
+					]
+				},
+				{
+					title: 'nav.shopping.website.default',
+					href: '/shopping/website',
+					icon: WebIcon,
+					items: [
+						{
+							title: 'nav.shopping.website.general',
+							href: '/shopping/website'
+						},
+						{
+							title: 'nav.shopping.website.analytics',
+							href: '/shopping/website/analytics'
+						}
+					]
+				},
+			]
+		},
+		{
+			subheader: 'nav.content.default',
+			items: [
+				{
+					title: 'nav.content.article.default',
+					href: '/content/articles',
+					icon: BookOutlinedIcon,
+					items: [
+						{
+							title: 'nav.content.article.categories',
+							href: '/content/article/categories'
+						},
+						{
+							title: 'nav.content.article.contents',
+							href: '/content/articles'
+						}
+					]
+				},
+				{
+					title: 'nav.content.video.default',
+					href: '/content/videos',
+					icon: MovieOutlinedIcon,
+					items: [
+						{
+							title: 'nav.content.video.categories',
+							href: '/content/video/categories'
+						},
+						{
+							title: 'nav.content.video.contents',
+							href: '/content/videos'
+						}
+					]
+				},
+			]
+		},
+		{
+			subheader: 'nav.member.default',
+			items: [
+				{
+					title: 'nav.member.member.default',
+					href: '/members',
+					icon: FaceIcon,
+					items: [
+						{
+							title: 'nav.member.member.groups',
+							href: '/member/groups'
+						},
+						{
+							title: 'nav.member.member.members',
+							href: '/members'
+						},
+					]
+				},
+				{
+					title: 'nav.member.qualified',
+					href: '/member/qualified',
+					icon: RecentActorsOutlinedIcon,
+				},
+			]
+		},
+		{
+			subheader: 'nav.tool.default',
+			items: [
+				{
+					title: 'nav.tool.email.default',
+					href: '/email',
+					icon: MailOutlineIcon,
+					items: [
+						{
+							title: 'nav.tool.email.categories',
+							href: '/email/categories'
+						},
+						{
+							title: 'nav.tool.email.templates',
+							href: '/email/templates'
+						}
+					]
+				},
+			]
+		},
+	]
